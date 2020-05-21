@@ -1,0 +1,3 @@
+[submodule "submodules/WikiHow-Dataset"]
+	path = submodules/WikiHow-Dataset
+	url = https://github.com/mahnazkoupaee/WikiHow-Dataset
