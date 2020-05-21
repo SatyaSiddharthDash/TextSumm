@@ -1,10 +1,10 @@
 # TextSumm
 
-Add a short description here!
+A simple scalable tool to perform text summarization.
 
 ## Description
 
-A longer description of your project goes here...
+This library enbales you to do text-summarization. You can perform summarization out-of-the-box with the model trained on [Wiki-How](https://arxiv.org/abs/1810.09305) dataset or train the model yourself.
 
 ## Installation
 
