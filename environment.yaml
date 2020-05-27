@@ -1,34 +1,39 @@
-name: TextSumm
+name: textsumm
 channels:
-  - defaults
   - conda-forge
-  - pytorch
+  - defaults
 dependencies:
-  - python>=3.6
-  - pip
-  - numpy
-  - scipy
-  - pandas
-  - dask
-  - ipython
-  - tqdm
-  - click
-  - matplotlib
-  - seaborn
-  - altair
-  - statsmodels
-  - scikit-learn
-  - pytorch
-  - pip:
-     # add here only pip-packages that are not available in conda/conda-forge! E.g.:
-     - optuna
-  # for development only (could also be kept in a separate environment file)
-  - jupyterlab
-  - pytest
-  - pytest-cov
-  - tox
-  - pre_commit
-  - nbdime
-  - nbstripout
-  - sphinx
-  - recommonmark
+  - _pytorch_select=0.1=cpu_0
+  - blas=1.0=mkl
+  - ca-certificates=2020.4.5.1=hecc5488_0
+  - certifi=2020.4.5.1=py37hc8dfbb8_0
+  - cffi=1.14.0=py37hc512035_1
+  - libcxx=10.0.0=h1af66ff_2
+  - libedit=3.1.20181209=hb402a30_0
+  - libffi=3.3=h0a44026_1
+  - libgfortran=3.0.1=0
+  - llvm-openmp=10.0.0=h28b9765_0
+  - mkl=2019.5=281
+  - mkl-service=2.3.0=py37h0b31af3_0
+  - mkl_fft=1.1.0=py37h3b54f70_1
+  - mkl_random=1.1.1=py37h959d312_0
+  - ncurses=6.2=h0a44026_1
+  - ninja=1.10.0=ha1b3eb9_0
+  - numpy=1.18.1=py37h7241aed_0
+  - numpy-base=1.18.1=py37h3304bdc_1
+  - openssl=1.1.1g=h0b31af3_0
+  - pip=20.1.1=pyh9f0ad1d_0
+  - pycparser=2.20=py_0
+  - python=3.7.7=hf48f09d_4
+  - python_abi=3.7=1_cp37m
+  - pytorch=1.4.0=cpu_py37hf9bb1df_0
+  - readline=8.0=h1de35cc_0
+  - setuptools=46.4.0=py37hc8dfbb8_0
+  - six=1.15.0=pyh9f0ad1d_0
+  - sqlite=3.31.1=h5c1f38d_1
+  - tk=8.6.10=hbbe82c9_0
+  - wheel=0.34.2=py_1
+  - xz=5.2.5=h0b31af3_0
+  - zlib=1.2.11=h0b31af3_1006
+prefix: /Users/satyasiddharthdash/miniconda3/envs/textsumm
+
