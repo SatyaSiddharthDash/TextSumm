@@ -1,9 +1,3 @@
-from textsumm.dataset.cnndm import CNNDMSummarizationDataset
-from textsumm.models.transformers.abstractive_summarization_bertsum import (
-    BertSumAbs,
-    BertSumAbsProcessor,
-    validate,
-)
 import argparse
 import os
 import sys
@@ -20,6 +14,12 @@ if nlp_path not in sys.path:
 
 sys.path.insert(0, "./")
 
+from textsumm.dataset.cnndm import CNNDMSummarizationDataset
+from textsumm.models.transformers.abstractive_summarization_bertsum import (
+    BertSumAbs,
+    BertSumAbsProcessor,
+    validate,
+)
 
 os.environ["NCCL_IB_DISABLE"] = "0"
 # os.environ["NCCL_DEBUG"] = "INFO"
