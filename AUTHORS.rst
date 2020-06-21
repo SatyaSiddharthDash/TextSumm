@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* SatyaSiddharthDash <dash.sathyasiddharth@gmail.com>
+* Satya Siddharth Dash <dash.sathyasiddharth@gmail.com>
