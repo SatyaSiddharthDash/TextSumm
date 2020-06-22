@@ -23,7 +23,7 @@ from textsumm.common.pytorch_utils import (
     move_model_to_device,
     parallelize_model,
 )
-from textsumm.eval import compute_rouge_python
+from textsumm.eval.rouge import compute_rouge_python
 from textsumm.models.transformers.bertsum import model_builder
 from textsumm.models.transformers.bertsum.model_builder import AbsSummarizer
 from textsumm.models.transformers.bertsum.predictor import build_predictor

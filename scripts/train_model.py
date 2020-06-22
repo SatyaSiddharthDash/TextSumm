@@ -7,13 +7,13 @@ import torch.distributed as dist
 import torch.multiprocessing as mp
 
 # torch.set_printoptions(threshold=5000)
-
-nlp_path = os.path.abspath("../../")
+'''
+nlp_path = os.path.abspath("../src/")
 if nlp_path not in sys.path:
     sys.path.insert(0, nlp_path)
 
 sys.path.insert(0, "./")
-
+'''
 from textsumm.dataset.cnndm import CNNDMSummarizationDataset
 from textsumm.models.transformers.abstractive_summarization_bertsum import (
     BertSumAbs,
